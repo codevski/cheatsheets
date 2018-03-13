@@ -34,6 +34,7 @@ weight: -3
 | `brew update`   | Update brew and cask     |
 | `brew list`     | List installed           |
 | `brew outdated` | What's due for upgrades? |
+| `brew upgrade`  | Upgrading outdated files?|
 
 ## Also see
 {: .-one-column}
