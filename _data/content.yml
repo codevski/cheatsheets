@@ -29,7 +29,7 @@ related_posts_group:
 search_form:
   default_placeholder: Search SIZE+ cheatsheets
   home_placeholder: Search...
-  prefix: codevski.github.io
+  prefix: codevski.github.io/cheatsheets
 
 comments_area:
   suffix: for this cheatsheet.
