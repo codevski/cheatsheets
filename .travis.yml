@@ -2,15 +2,15 @@ sudo: required
 
 language: node_js
 node_js:
-  - "iojs"
   - "8"
 
 before_install:
   - echo "Testing Before Install"
   - npm install
+  - bundle install
 
 install:
-    - bundle exec jekyll build
+  - bundle exec jekyll build
 
 after_success:
   - echo "Build Test Success"
