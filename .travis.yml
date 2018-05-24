@@ -1,0 +1,20 @@
+sudo: required
+
+language: node_js
+
+before_install:
+  - echo "Testing Before Install"
+  - npm i -g npm
+
+cache:
+  directories:
+    - "node_modules"
+
+install:
+    - bundle exec jekyll build
+
+script:
+  - docker ps -a
+
+after_success:
+  - echo "Build Test Success"
